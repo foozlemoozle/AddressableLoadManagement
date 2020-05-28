@@ -22,7 +22,7 @@ namespace com.keg.addressableloadmanagement
 		{
 			var type = typeof( T );
 			T result = null;
-			if( type.IsSubclassOf( typeof( UnityEngine.MonoBehaviour ) ) )
+			if( type.IsSubclassOf( typeof( UnityEngine.Component ) ) )
 			{
 				result = ( (UnityEngine.GameObject)loaded.Result ).GetComponent<T>();
 			}
