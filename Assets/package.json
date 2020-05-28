@@ -1,6 +1,6 @@
 {
 	"name" : "com.keg.addressableloadmanagement",
-	"version" : "0.1.0",
+	"version" : "0.1.1",
 	"displayName" : "Addressable Load Management",
 	"description" : "Handles addressable loading.  ",
 	"unity" : "2019.2",
